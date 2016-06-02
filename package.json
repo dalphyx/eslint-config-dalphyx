@@ -1,0 +1,19 @@
+{
+  "name": "eslint-config-dalphyx",
+  "version": "0.0.1",
+  "description": "eslint config for dalphyx",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dalphyx/eslint-config-dalphyx.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "dalphyx <wjcbmk@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dalphyx/eslint-config-dalphyx/issues"
+  },
+  "homepage": "https://github.com/dalphyx/eslint-config-dalphyx#readme",
+}
