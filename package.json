@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-dalphyx",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "eslint config for dalphyx",
   "main": "index.js",
   "repository": {
