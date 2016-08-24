@@ -146,7 +146,7 @@ module.exports = {
     'one-var': [2, 'never'],
     'one-var-declaration-per-line': 2,
     'operator-assignment': [2, 'always'],
-    'operator-linebreak': [2, 'after'],
+    'operator-linebreak': [2, 'after', { 'overrides': { '?': 'before', ':': 'before' } }],
     'padded-blocks': [2, 'never'],
     'quote-props': [2, 'consistent-as-needed'],
     'quotes': [2, 'single', { allowTemplateLiterals: true }],
