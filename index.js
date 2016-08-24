@@ -1,24 +1,24 @@
 module.exports = {
-  parserOptions: {
-    ecmaVersion: 7,
-    ecmaFeatures: {
-      experimentalObjectRestSpread: true
+  'parserOptions': {
+    'ecmaVersion': 7,
+    'ecmaFeatures': {
+      'experimentalObjectRestSpread': true
     },
-    sourceType: 'module'
+    'sourceType': 'module'
   },
 
-  env: {
-    es6: true,
-    node: true
+  'env': {
+    'es6': true,
+    'node': true
   },
 
-  globals: {
+  'globals': {
     'document': false,
     'navigator': false,
     'window': false
   },
 
-  rules: {
+  'rules': {
     'comma-dangle': [2, 'never'],
     'no-cond-assign': 2,
     'no-constant-condition': 2,
@@ -51,7 +51,7 @@ module.exports = {
     'array-callback-return': 2,
     'block-scoped-var': 2,
     'curly': 2,
-    'default-case': [2, { "commentPattern": "^skip\\sdefault" }],
+    'default-case': [2, { 'commentPattern': '^skip\\sdefault' }],
     'dot-notation': 2,
     'dot-location': [2, 'property'],
     'eqeqeq': 2,
