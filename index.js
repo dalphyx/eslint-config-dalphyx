@@ -12,6 +12,12 @@ module.exports = {
     node: true
   },
 
+  globals: {
+    'document': false,
+    'navigator': false,
+    'window': false
+  },
+
   rules: {
     'comma-dangle': [2, 'never'],
     'no-cond-assign': 2,
