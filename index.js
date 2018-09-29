@@ -1,12 +1,12 @@
 module.exports = {
   'parserOptions': {
-    'ecmaVersion': 7,
-    'ecmaFeatures': {
-      'experimentalObjectRestSpread': true
-    },
-    'sourceType': 'module'
+    'ecmaVersion': 2018,
+    'sourceType': 'module',
+		'ecmaFeatures': {
+			'jsx': true
+		}
   },
-
+  
   'env': {
     'es6': true,
     'node': true
